@@ -5,7 +5,8 @@ public class Task1 {
         int nums = 5;
         int num2 = 6;
         System.out.println(oddEven(5));
-        System.out.println(div(25,5 ));
+        System.out.println(div(25, 5));
+        finra();
     }
 
     public static String oddEven(int num) {
@@ -32,6 +33,20 @@ public class Task1 {
             }
 
             return count;
+        }
+    }
+
+    public static void finra() {
+        for (int i = 1; i <= 30; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println("FINRA");
+            } else if (i % 3 == 0) {
+                System.out.println("FIN");
+
+            } else if (i % 5 == 0) {
+                System.out.println("RA");
+            }
+
         }
     }
 }
