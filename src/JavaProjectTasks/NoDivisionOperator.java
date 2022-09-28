@@ -7,7 +7,7 @@ public class NoDivisionOperator {
 
     public static int divide(int a, int b){
         if (b==0){
-            System.exit(-1);
+            System.exit(0);
         }
         int result=0;
         while(a>=b){
@@ -22,3 +22,6 @@ public class NoDivisionOperator {
 
     }
 }
+/*
+devide two numbers without using devision operator
+ */

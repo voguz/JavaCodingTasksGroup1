@@ -7,9 +7,9 @@ public class EvenOddNumber {
 
     public static String EvenNum(int num){
         if(num%2 == 0){
-            return "Even";
+            return "Even Number";
         }
-        return "Odd";
+        return "Odd Number";
 
 
 
