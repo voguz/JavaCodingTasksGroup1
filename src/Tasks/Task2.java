@@ -17,7 +17,6 @@ public class Task2 {
             System.out.println("Can not be divided by zero");
             System.exit(0);
 
-
         }
 
         int count = 0;
