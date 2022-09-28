@@ -8,22 +8,28 @@ public class Task2 {
         /*
         Write a method that can divide two numbers without using division operator
          */
-        int num1,num2,div,result=0;
-        Scanner input =new Scanner(System.in);
+        System.out.println(divide(3,1));
+    }
 
-        System.out.print("Enter the value to num1: ");
-        num1= input.nextInt();
+    public static int divide(int a, int b){
 
-        System.out.print("Enter the value to num2: ");
-        num2= input.nextInt();
+        if(b==0) {
+            System.out.println("Can not be divided by zero");
+            System.exit(0);
 
-        div=num1+num2;
-        while(div>num2){
-            div=div-num2;
-            result++;
 
         }
-        System.out.println("Division of " +num1+ " and " +num2+ ":" +result);
+
+        int count = 0;
+
+        while(a >= b){
+            a = a - b;
+
+            count++;
+        }
+        return count;
+
+
 
     }
 }
