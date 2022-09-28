@@ -2,7 +2,7 @@ package Group19;
 
 public class Finra {
 
-   public static void finra(int num) {
+   public static void finra() {
 
        for (int i = 1; i <= 30; i++) {
            if (i % 3 == 0 && i % 5 == 0) {

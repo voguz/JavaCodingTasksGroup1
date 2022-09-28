@@ -4,18 +4,11 @@ public class Task1 {
     public static void main(String[] args) {
         int nums = 5;
         int num2 = 6;
-        System.out.println(oddEven(5));
+        System.out.println(OddEven.oddEven(5));
         System.out.println(div(25, 5));
-        finra();
+       Finra .finra();
     }
 
-    public static String oddEven(int num) {
-        if (num % 2 == 0) {
-            return "Even";
-        } else
-            System.out.println("this num is odd:" + num);
-        return "Odd";
-    }
 
 
     public static int div(int num, int num2) {
