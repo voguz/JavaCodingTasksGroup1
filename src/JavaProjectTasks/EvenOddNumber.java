@@ -2,14 +2,15 @@ package JavaProjectTasks;
 
 public class EvenOddNumber {
     public static void main(String[] args) {
-        System.out.println(EvenNum(5));
+        System.out.println(EvenNum(10));
     }
 
     public static String EvenNum(int num){
         if(num%2 == 0){
-            return "Even Number";
+            return num+" Even Number";
+
         }
-        return "Odd Number";
+        return num+" Odd Number";
 
 
 
