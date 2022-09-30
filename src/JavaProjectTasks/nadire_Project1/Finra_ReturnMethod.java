@@ -1,4 +1,4 @@
-package JavaProjectTasks;
+package JavaProjectTasks.nadire_Project1;
 
 public class Finra_ReturnMethod {
     public static void main(String[] args) {
