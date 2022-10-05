@@ -33,11 +33,5 @@ public class Task6ConsecutiveNumber {
         }
 
 
-
-
-
-
-
-
     }
 }
