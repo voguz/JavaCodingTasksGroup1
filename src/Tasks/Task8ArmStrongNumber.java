@@ -26,8 +26,6 @@ public class Task8ArmStrongNumber {
 
 
 
-
-
-
     }
+
     }
