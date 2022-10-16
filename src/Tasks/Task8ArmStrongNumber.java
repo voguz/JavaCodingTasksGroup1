@@ -4,6 +4,8 @@ public class Task8ArmStrongNumber {
 
     //153= 1*1*1 + 5*5*5 + 3*3*3 = 153
     public static void main(String[] args) {
+
+
         int num = 153;
         int number, temp, total = 0;
 
@@ -11,7 +13,7 @@ public class Task8ArmStrongNumber {
         while (number != 0)
         {
             temp = number % 10;
-            total = total + temp*temp*temp;
+            total = total + temp * temp * temp;
             number /= 10;
         }
 
