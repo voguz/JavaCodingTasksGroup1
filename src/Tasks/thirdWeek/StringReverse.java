@@ -1,4 +1,4 @@
-package Tasks;
+package Tasks.thirdWeek;
 
 public class StringReverse {
     public static void main(String[] args) {
