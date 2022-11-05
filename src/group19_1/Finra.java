@@ -1,4 +1,4 @@
-package Group19;
+package group19_1;
 
 public class Finra {
 
@@ -13,9 +13,13 @@ public class Finra {
            } else if (i % 5 == 0) {
 
                System.out.println("RA");
+           } else {
+               System.out.print(i+" ");
            }
-
        }
-
    }
+
+    public static void main(String[] args) {
+        finra();
+    }
 }
