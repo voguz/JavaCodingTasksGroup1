@@ -12,6 +12,7 @@ public class sameLetters {
     }
 
     public static void main(String[] args) {
+
         System.out.println(sameLettersCheck("abs", "sbc"));
     }
 

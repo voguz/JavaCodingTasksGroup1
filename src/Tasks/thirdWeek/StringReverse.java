@@ -3,7 +3,7 @@ package Tasks.thirdWeek;
 public class StringReverse {
     public static void main(String[] args) {
 
-        System.out.println(reverse("volkanoguz"));
+        System.out.println(reverse("124589"));
     }
     public static String reverse(String rev) {
 

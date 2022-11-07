@@ -2,7 +2,7 @@ package Tasks.thirdWeek;
 
 public class FindUnique {
     public static void main(String[] args) {
-        System.out.println(Unique("volvoredcar"));
+        Unique("volvoredcar");
 
     }
     public static String Unique(String string){

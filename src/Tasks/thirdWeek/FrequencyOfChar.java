@@ -3,7 +3,7 @@ package Tasks.thirdWeek;
 public class FrequencyOfChar {
     public static void main(String[] args) {
 
-        System.out.println(Frequency("volvolkankaoguz"));
+        Frequency("volvolkankaoguz");
 
     }
         public static String Frequency(String string){
